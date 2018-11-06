@@ -1,0 +1,29 @@
+QPushButton{border-radius:10px;
+border:2px;
+color:white;
+}
+QPushButton:hover{
+border:2px;
+color:rgb(71,186,204);
+}
+QPushButton:pressed{
+border:2px;
+color:white;
+background-color:rgb(71,186,204);
+}
+QPushButton:!enabled
+{
+border:2px solid rgb(130,130,130);
+color:rgb(130,130,130);
+}
+QPushButton:focus {
+border:2px;
+}
+QLabel{
+color:#000000;
+font-size:50px;
+font-family:"黑体";
+}
+QLCDNumber{
+background-color:rgb(54, 89, 84);
+}
